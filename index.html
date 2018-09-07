@@ -1,0 +1,66 @@
+<html>
+<head>
+        <meta charset="UTF-8"/>
+        <title>BluePixel - Lista</title>
+        <link rel="stylesheet" href="src/css/bootstrap.min.css">
+        <link rel="stylesheet" href="src/css/style.css">
+</head>
+
+<body style="background-color:#f5f5f5;">
+
+<nav class="navbar navbar-bp">
+    <div class="container">
+    <div class="navbar-header">
+    <a href="javascript:window.location.reload();" class="navbar-left"><img src="http://www.bpixel.com.br/img/logo.png" alt="Blue Pixel"></a>
+    </div>
+    <form class="navbar-form navbar-right" method="get" action="javascript:pesquisar();" id="f_pesquisa" name="f_pesquisa">
+        <input type="text" class="form-control form-pesquisa" placeholder="Pesquisar &raquo;" id="i_pesquisa" name="i_pesquisa" required>
+    </form>
+    
+    </div>
+    </nav>
+    
+    <div class="container">
+    
+    <div>
+    
+    <div id="Alertas"></div>
+    
+    <div class="panel panel-default">
+    <table class="table">
+    <thead>
+    <tr>
+    <th>#</th>
+    <th>Foto</th>
+    <th>Nome</th>
+    <th>Descrição</th>
+    <th></th>
+    </tr>
+    </thead>
+    <tbody id="R_Lista">
+    </tbody>
+    </table>
+    </div>
+    
+    </div>
+    
+    
+    <center>
+    <br><br>
+    <p>© 2017 - Rubens Flinco !</p>
+    <a href="http://pf.planetsweb.com.br/rubens_flinco" target="_blank" style="cursor: url(http://fotos.planetsweb.com.br/geral/logo.cur) 4 12, auto!important;border: none!important;">
+    <img src="http://fotos.planetsweb.com.br/painel/logotipo_home.png" alt="PlanetsWEB">
+    </a></center>
+    
+    </div>
+
+<script src="src/js/jquery-3.2.1.min.js"></script>
+<script src="src/js/popper.min.js"></script>
+<script src="src/js/bootstrap.min.js"></script>
+
+<script src="scripts/buscar_lista.js"></script>
+<script src="scripts/selecionou.js"></script>
+<script src="scripts/pesquisar.js"></script>
+
+</body>
+</html>

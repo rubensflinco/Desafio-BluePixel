@@ -1,0 +1,15 @@
+.selecionou{
+  background-color: #ECECEC!important;
+}
+.navbar-bp{
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.navbar-bp .form-pesquisa{
+  margin-top: 35px!important;
+}
+.panel-default{
+  border: 1px solid transparent!important;
+  border-radius: 4px!important;
+  border-color: #ddd!important;
+}
